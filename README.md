@@ -121,19 +121,19 @@ dataset/
 
 **Support Vector Machine (SVM)**
 
-![SVM Results](svm.png)
+![SVM Results](images/svm.png)
 
 ---
 
 **Custom CNN**
 
-![Custom CNN Results](cnn.png)
+![Custom CNN Results](images/cnn.png)
 
 ---
 
 **ResNet-34 (Fine-Tuned)**
 
-![ResNet-34 Results](resnet.png)
+![ResNet-34 Results](images/resnet.png)
 
 ---
 
