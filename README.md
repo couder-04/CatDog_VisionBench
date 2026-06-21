@@ -144,14 +144,14 @@ dataset/
 <details>
 <summary><b>EfficientNet-B0 (Fine-Tuned)</b></summary>
 
-*Results image coming soon*
+![Eff_Net_B0 Results](eff_net.png)
 
 </details>
 
 <details>
 <summary><b>ViT-Base/Patch16-224 (Fine-Tuned)</b></summary>
 
-*Results image coming soon*
+![Vit-Base/Patch16 Results](vit.png)
 
 </details>
 
