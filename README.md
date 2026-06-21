@@ -1,8 +1,12 @@
-Animal Classifier 🐱🐶
+🐱🐶 Animal Classifier: Classical ML to Vision Transformers
 
-A comprehensive image classification project comparing traditional Machine Learning approaches with modern Deep Learning and Transformer-based architectures on the Cat vs Dog classification task.
+A comprehensive computer vision project that benchmarks traditional Machine Learning, Convolutional Neural Networks (CNNs), Transfer Learning, and Vision Transformers on the Cat vs Dog image classification task.
 
-Models Implemented
+The objective is to compare model performance, training efficiency, and generalization across multiple generations of image classification architectures.
+
+⸻
+
+🚀 Models Evaluated
 
 Traditional Machine Learning
 
@@ -21,18 +25,33 @@ Vision Transformers
 
 ⸻
 
-Dataset
+📊 Dataset
 
-The project uses a binary image classification dataset containing:
+Binary image classification dataset containing:
 
 * Cats
 * Dogs
 
-Images are preprocessed and resized before training and evaluation.
+Images are resized, normalized, and augmented to improve model robustness and generalization.
 
 ⸻
 
-Project Structure
+🛠️ Key Techniques
+
+* Exploratory Data Analysis (EDA)
+* Data Augmentation
+* Feature Extraction
+* Transfer Learning
+* Fine-Tuning Pretrained Models
+* Hyperparameter Tuning
+* Performance Benchmarking
+* Custom Image Inference
+* Confusion Matrix Analysis
+* Precision, Recall, and F1-Score Evaluation
+
+⸻
+
+🏗️ Project Structure
 
 Animal_Classifier/
 │
@@ -49,24 +68,12 @@ Animal_Classifier/
 
 ⸻
 
-Techniques Used
+⚙️ Technology Stack
 
-* Data Analysis & Visualization
-* Data Augmentation
-* Transfer Learning
-* Fine-Tuning
-* Model Evaluation
-* Confusion Matrix Analysis
-* Precision, Recall & F1 Score
-* Inference on Custom Images
-
-⸻
-
-Libraries
-
+* Python
 * PyTorch
 * Torchvision
-* Transformers (Hugging Face)
+* Hugging Face Transformers
 * Scikit-Learn
 * NumPy
 * Matplotlib
@@ -74,34 +81,64 @@ Libraries
 
 ⸻
 
-Training Pipeline
+🔄 Training Pipeline
 
-1. Load and analyze dataset
-2. Apply preprocessing and augmentation
-3. Train multiple models
-4. Evaluate performance
-5. Compare results across architectures
-6. Perform inference on unseen images
-
-⸻
-
-Sample Inference
-
-Input Image → Preprocessing → Model Prediction → Cat / Dog Classification
+1. Dataset Analysis and Visualization
+2. Image Preprocessing and Augmentation
+3. Model Training
+4. Fine-Tuning Pretrained Networks
+5. Performance Evaluation
+6. Comparative Benchmarking
+7. Custom Image Inference
 
 ⸻
 
-Future Improvements
+📈 Evaluation Metrics
 
-* MobileNetV3 benchmarking
-* ConvNeXt implementation
-* Swin Transformer experiments
-* Hyperparameter optimization
-* Model deployment using Streamlit/FastAPI
+Models are evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+* Training Time
+* Inference Time
 
 ⸻
 
-Author
+🔍 Sample Inference
+
+Input Image
+      ↓
+Preprocessing
+      ↓
+Trained Model
+      ↓
+Cat / Dog Prediction
+      ↓
+Confidence Score
+
+⸻
+
+🎯 Future Enhancements
+
+* MobileNetV3 Benchmarking
+* ConvNeXt Implementation
+* Swin Transformer Fine-Tuning
+* Automated Hyperparameter Optimization
+* Streamlit Web Application
+* FastAPI Deployment
+* Model Quantization & Optimization
+
+⸻
+
+👨‍💻 Author
 
 Parth
-IIT Patna — Computer Science & Engineering
+B.Tech, Computer Science & Engineering
+Indian Institute of Technology (IIT) Patna
+
+⸻
+
+⭐ If you found this project interesting, consider starring the repository.
