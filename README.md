@@ -107,7 +107,6 @@ dataset/
 | EfficientNet-B0 (FT) | 96% | 0.97 | 0.95 | 0.96 | 5.3M | 31 min |
 | ViT-Base/16 (FT) | 99%+ | 0.99 | 0.99 | 0.99 | 86M | 2hrs |
 
-> 📝 Fill in the exact values from your training runs. Placeholder estimates shown above.
 
 ---
 
@@ -188,8 +187,8 @@ Animal_Classifier/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Animal_Classifier.git
-cd Animal_Classifier
+git clone https://github.com/couder-04/VisionBench.git
+cd VisionBench
 ```
 
 ### 2. Set up environment
